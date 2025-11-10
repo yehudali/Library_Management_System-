@@ -10,3 +10,8 @@ class Library:
         book=Book(title,author,ISBN,is_available)
         self.books.append(book)
 
+    def add_user(self,name:str,id:int, borrowed_books:list[int]):
+        user = User(name,id,borrowed_books)
+        self.users.append(user)
+
+
