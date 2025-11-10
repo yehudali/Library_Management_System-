@@ -21,4 +21,10 @@ class Library:
                 listi.append(book.title)
         return listi
 
+    def search_book(self,title_or_author:str = ""):
+        for book in self.books:
+            if book.title == title_or_author or book.author==title_or_author:
+                return book
+        print("The book is not found")
+        return None
 
