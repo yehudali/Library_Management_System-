@@ -14,4 +14,11 @@ class Library:
         user = User(name,id,borrowed_books)
         self.users.append(user)
 
+    def list_available_books(self):
+        listi=[]
+        for book in self.books:
+            if book.is_available == True:
+                listi.append(book.title)
+        return listi
+
 
