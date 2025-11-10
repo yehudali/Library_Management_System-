@@ -13,11 +13,21 @@ class Library:
             if self.users[i].id == user_id:
                 for j in range(len(self.books)):
                     if self.books[j].ISBN == book_isbn:
-                        self.books[j].is_available = False
-                        self.users[i].borrowed_books.append(book_isbn)
+                        if self.books[j].is_available == True:
+                            self.books[j].is_available = False
+                            self.users[i].borrowed_books.append(book_isbn)
 
 
-x = Library([User("moshe",0,[]),User("moty",1,[])],[Book("jjj","arik",123,True),Book("sss","dov",124,True)])
-x.borrow_book(2,124)
-print(x.users[1].borrowed_books)
+     def return_book(self,user_id, book_isbn):
+        for i in range(len(self.users)):
+            if self.users[i].id == user_id:
+                for j in range(len(self.books)):
+                    if self.books[j].ISBN == book_isbn:
+                        if book_isbn in self.users[i].borrowed_books:
+                            self.books[j].is_available = True
+                            self.users[i].borrowed_books.remove(book_isbn)
+
+
+
+
 
