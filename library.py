@@ -17,7 +17,7 @@ class Library:
                         self.users[i].borrowed_books.append(book_isbn)
 
 
-x = Library([User("moshe",0,[]),User("moty",1,[])],[Book("jjj","arik",123,True),Book("sss","dov",124,True)])
-x.borrow_book(2,124)
-print(x.users[1].borrowed_books)
+# x = Library([User("moshe",0,[]),User("moty",1,[])],[Book("jjj","arik",123,True),Book("sss","dov",124,True)])
+# x.borrow_book(2,124)
+# print(x.users[1].borrowed_books)
 
