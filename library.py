@@ -6,12 +6,12 @@ class Library:
         self.books = books
         self.users = users
 
-    def add_book(self,title:str, author:str,ISBN:int, is_available:bool):
-        book=Book(title,author,ISBN,is_available)
+    def add_book(self,title:str, author:str,ISBN:int):
+        book=Book(title,author,ISBN, True)
         self.books.append(book)
 
-    def add_user(self,name:str,id:int, borrowed_books:list[int]):
-        user = User(name,id,borrowed_books)
+    def add_user(self,name:str,id:int):
+        user = User(name,id,[])
         self.users.append(user)
 
     def list_available_books(self):
