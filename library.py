@@ -26,8 +26,3 @@ class Library:
                         if book_isbn in self.users[i].borrowed_books:
                             self.books[j].is_available = True
                             self.users[i].borrowed_books.remove(book_isbn)
-
-
-
-
-
