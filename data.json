@@ -55,12 +55,12 @@
   "user" : [{
     "name": "David Levi",
     "id": 101,
-    "borrowed_books": [1001, 1002, 1007]
+    "borrowed_books": []
   },
   {
     "name": "Rachel Cohen",
     "id": 102,
-    "borrowed_books": [1003, 1009]
+    "borrowed_books": []
   },
   {
     "name": "Moshe Mizrahi",
@@ -70,17 +70,17 @@
   {
     "name": "Yael Ben Ari",
     "id": 104,
-    "borrowed_books": [1001, 1004, 1005, 1010]
+    "borrowed_books": []
   },
   {
     "name": "Eli Shaked",
     "id": 105,
-    "borrowed_books": [1008]
+    "borrowed_books": []
   },
   {
     "name": "Orit Azulay",
     "id": 106,
-    "borrowed_books": [1002, 1006, 1011]
+    "borrowed_books": []
   },
   {
     "name": "Avi Peretz",
@@ -90,22 +90,22 @@
   {
     "name": "Noa Regev",
     "id": 108,
-    "borrowed_books": [1007, 1012, 1013]
+    "borrowed_books": []
   },
   {
     "name": "Shlomi Amar",
     "id": 109,
-    "borrowed_books": [1014]
+    "borrowed_books": []
   },
   {
     "name": "Hila Sasson",
     "id": 110,
-    "borrowed_books": [1005, 1009]
+    "borrowed_books": []
   },
   {
     "name": "Itai Ron",
     "id": 111,
-    "borrowed_books": [1003]
+    "borrowed_books": []
   },
   {
     "name": "Meital Ashkenazi",
@@ -115,17 +115,17 @@
   {
     "name": "Ron Shapiro",
     "id": 113,
-    "borrowed_books": [1015, 1016]
+    "borrowed_books": []
   },
   {
     "name": "Lior Dahan",
     "id": 114,
-    "borrowed_books": [1004, 1006]
+    "borrowed_books": []
   },
   {
     "name": "Eden Goldstein",
     "id": 115,
-    "borrowed_books": [1001, 1017, 1018, 1019]
+    "borrowed_books": []
   },
   {
     "name": "Tomer Halevi",
@@ -135,17 +135,17 @@
   {
     "name": "Shira Alon",
     "id": 117,
-    "borrowed_books": [1020, 1021]
+    "borrowed_books": []
   },
   {
     "name": "Nadav Barkai",
     "id": 118,
-    "borrowed_books": [1012]
+    "borrowed_books": []
   },
   {
     "name": "Dana Segal",
     "id": 119,
-    "borrowed_books": [1007, 1008, 1015]
+    "borrowed_books": []
   },
   {
     "name": "Yonatan Cohen",
