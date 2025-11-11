@@ -7,12 +7,12 @@ class Library:
         self.books = books
         self.users = users
 
-    def add_book(self,title:str, author:str,ISBN:int):
-        book=Book(title,author,ISBN, True)
+    def add_book(self,title:str, author:str,isbn:int):
+        book=Book(title,author,isbn, True)
         self.books.append(book)
 
-    def add_user(self,name:str,id:int):
-        user = User(name,id,[])
+    def add_user(self,name:str,user_id:int):
+        user = User(name,user_id,[])
         self.users.append(user)
 
 
