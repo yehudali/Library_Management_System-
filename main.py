@@ -1,18 +1,11 @@
 from library import Library
 from user import User
 from book_class import Book
+with open("data.json", "r")as r:
+    data=r.read()
 
-x = Library([
-         Book( "1984", "George Orwell",9780451524935,True),
-         Book("Brave New World", "Aldous Huxley",9780060850524,True)
-        ],
-        [
-        User("moshe",00,[]),
-        User("dov",11,[])
 
-        ])
-
-if __name__ =="__main__":
+if __name__ =="__mai__":
     while True:
         print("1. Add Book\n2. Add User\n3. Borrow Book\n...7. Save & Exit")
         choice = input("Enter your choice: ")
