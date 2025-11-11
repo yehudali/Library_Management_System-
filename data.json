@@ -1,0 +1,155 @@
+{
+  "book":[
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "isbn": 9780451524935
+  },
+
+    {
+        "title": "Brave New World",
+        "author": "Aldous Huxley",
+        "isbn": 9780060850524
+    },
+    {
+        "title": "The Stranger",
+        "author": "Albert Camus",
+        "isbn": 9780679720201
+    },
+    {
+        "title": "Man's Search for Meaning",
+        "author": "Viktor E. Frankl",
+        "isbn": 9780807014295
+    },
+    {
+        "title": "Meditations",
+        "author": "Marcus Aurelius",
+        "isbn": 9780140449334
+    },
+    {
+        "title": "Atomic Habits",
+        "author": "James Clear",
+        "isbn": 9780735211292
+    },
+    {
+        "title": "The 7 Habits of Highly Effective People",
+        "author": "Stephen R. Covey",
+        "isbn": 9780743269513
+    },
+    {
+        "title": "Think and Grow Rich",
+        "author": "Napoleon Hill",
+        "isbn": 9781585424337
+    },
+    {
+        "title": "The Power of Now",
+        "author": "Eckhart Tolle",
+        "isbn": 9781577314806
+    },
+    {
+        "title": "Deep Work",
+        "author": "Cal Newport",
+        "isbn": 9781455586691
+    }],
+
+  "user" : [{
+    "name": "David Levi",
+    "id": 101,
+    "borrowed_books": [1001, 1002, 1007]
+  },
+  {
+    "name": "Rachel Cohen",
+    "id": 102,
+    "borrowed_books": [1003, 1009]
+  },
+  {
+    "name": "Moshe Mizrahi",
+    "id": 103,
+    "borrowed_books": []
+  },
+  {
+    "name": "Yael Ben Ari",
+    "id": 104,
+    "borrowed_books": [1001, 1004, 1005, 1010]
+  },
+  {
+    "name": "Eli Shaked",
+    "id": 105,
+    "borrowed_books": [1008]
+  },
+  {
+    "name": "Orit Azulay",
+    "id": 106,
+    "borrowed_books": [1002, 1006, 1011]
+  },
+  {
+    "name": "Avi Peretz",
+    "id": 107,
+    "borrowed_books": []
+  },
+  {
+    "name": "Noa Regev",
+    "id": 108,
+    "borrowed_books": [1007, 1012, 1013]
+  },
+  {
+    "name": "Shlomi Amar",
+    "id": 109,
+    "borrowed_books": [1014]
+  },
+  {
+    "name": "Hila Sasson",
+    "id": 110,
+    "borrowed_books": [1005, 1009]
+  },
+  {
+    "name": "Itai Ron",
+    "id": 111,
+    "borrowed_books": [1003]
+  },
+  {
+    "name": "Meital Ashkenazi",
+    "id": 112,
+    "borrowed_books": []
+  },
+  {
+    "name": "Ron Shapiro",
+    "id": 113,
+    "borrowed_books": [1015, 1016]
+  },
+  {
+    "name": "Lior Dahan",
+    "id": 114,
+    "borrowed_books": [1004, 1006]
+  },
+  {
+    "name": "Eden Goldstein",
+    "id": 115,
+    "borrowed_books": [1001, 1017, 1018, 1019]
+  },
+  {
+    "name": "Tomer Halevi",
+    "id": 116,
+    "borrowed_books": []
+  },
+  {
+    "name": "Shira Alon",
+    "id": 117,
+    "borrowed_books": [1020, 1021]
+  },
+  {
+    "name": "Nadav Barkai",
+    "id": 118,
+    "borrowed_books": [1012]
+  },
+  {
+    "name": "Dana Segal",
+    "id": 119,
+    "borrowed_books": [1007, 1008, 1015]
+  },
+  {
+    "name": "Yonatan Cohen",
+    "id": 120,
+    "borrowed_books": []
+  }]}
+
