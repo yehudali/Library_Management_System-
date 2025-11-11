@@ -6,5 +6,5 @@ class Book:
         self.is_available = is_available
 
     def __str__(self):
-        return (f"title: {self.title}\n author: {self.author}"
-                f" ISBN: {self.ISBN}\n is_available:{self.is_available}")
+        return (f"title: {self.title}\nauthor: {self.author}\n"
+                f"ISBN: {self.ISBN}\nis_available:{self.is_available}")

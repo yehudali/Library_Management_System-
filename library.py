@@ -43,8 +43,16 @@ class Library:
                 listi.append(book.title)
         return listi
 
-    def search_book(self,search_word:str):
+    def search_book_by_title(self,search_word:str):
         for book in self.books:
-            if book.title == search_word or book.author == search_word:
-                return book
+                if book.title == search_word :
+                    return book
         return "The book is not found"
+
+    def search_book_by_author(self,search_word:str):
+        for book in self.books:
+                if book.author == search_word :
+                    return book
+        return "The book is not found"
+
+
